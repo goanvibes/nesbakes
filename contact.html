@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Nesbakes</title>
+  <meta name="description" content="Contact Nesbakes in Panjim, Goa, India. Call, WhatsApp, visit the map, or send a message for cake orders and bulk enquiries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg-glow"></div>
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <div class="brand-mark"><i class="fa-solid fa-cake-candles"></i></div>
+      <div class="brand-text"><strong>Nesbakes</strong><span>Fresh bakes in Panjim, Goa</span></div>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu"><span></span></button>
+    <nav class="nav" aria-label="Primary"><a class="" href="index.html">Home</a><a class="" href="menu.html">Menu</a><a class="" href="gallery.html">Gallery</a><a class="" href="reviews.html">Reviews</a><a class="active" href="contact.html">Contact</a><a class="" href="order.html">Order</a></nav>
+  </div>
+  <div class="mobile-panel container"><a class="" href="index.html">Home</a><a class="" href="menu.html">Menu</a><a class="" href="gallery.html">Gallery</a><a class="" href="reviews.html">Reviews</a><a class="active" href="contact.html">Contact</a><a class="" href="order.html">Order</a></div>
+</header>
+
+<main>
+<section class="section">
+  <div class="container contact-grid">
+    <div class="info-stack">
+      <div class="info-box soft-card reveal">
+        <span class="section-kicker">Reach us</span>
+        <h1 class="section-title">Everything you need to reach the bakery is right here.</h1>
+        <div class="info-line"><i class="fa-solid fa-phone"></i><div><strong>Phone</strong><span><a href="tel:+917499554807">+91 74995 54807</a></span></div></div>
+        <div class="info-line"><i class="fa-solid fa-location-dot"></i><div><strong>Location</strong><span>Panjim, Goa, India</span></div></div>
+        <div class="info-line"><i class="fa-solid fa-clock"></i><div><strong>Hours</strong><span>08:30 AM - 08:30 PM (Wednesdays may vary)</span></div></div>
+        <div class="info-line"><i class="fa-brands fa-instagram"></i><div><strong>Instagram</strong><span><a href="https://instagram.com/nesbakesgoa" target="_blank" rel="noopener">@nesbakesgoa</a></span></div></div>
+        <div class="info-line"><i class="fa-solid fa-envelope"></i><div><strong>Email</strong><span><a href="mailto:hello@nesbakes.com">hello@nesbakes.com</a></span></div></div>
+        <div class="hero-cta" style="margin-top:1rem">
+          <a class="btn btn-primary" href="https://wa.me/917499554807" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+          <a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&query=Nesbakes%20Panjim%20Goa" target="_blank" rel="noopener"><i class="fa-solid fa-route"></i> Open in Google Maps</a>
+        </div>
+      </div>
+      <div class="map-card soft-card reveal">
+        <iframe loading="lazy" title="Map to Nesbakes" src="https://www.google.com/maps?q=Nesbakes%20Panjim%20Goa&output=embed"></iframe>
+      </div>
+    </div>
+    <div class="soft-card form reveal">
+      <span class="section-kicker">Send a message</span>
+      <h2 class="section-title" style="font-size:clamp(1.8rem, 3vw, 2.8rem)">Quick enquiry form</h2>
+      <form id="contactForm">
+        <div class="field-grid">
+          <div class="field"><label>Name</label><input name="name" placeholder="Your name"></div>
+          <div class="field"><label>Phone</label><input name="phone" placeholder="Your phone"></div>
+        </div>
+        <div class="field-grid" style="margin-top:1rem">
+          <div class="field"><label>Email</label><input name="email" type="email" placeholder="Your email"></div>
+          <div class="field"><label>Subject</label><input name="subject" placeholder="Cake enquiry / bulk order / visit"></div>
+        </div>
+        <div class="field" style="margin-top:1rem"><label>Message</label><textarea name="message" placeholder="Tell us the cake size, date, and any custom ideas"></textarea></div>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit"><i class="fa-brands fa-whatsapp"></i> Send on WhatsApp</button>
+          <a class="btn btn-ghost" href="order.html">Go to Order page</a>
+        </div>
+      </form>
+      <p class="small-note">This form opens WhatsApp so you can place an order without waiting on a separate checkout.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container subfooter">
+    <span>© <span data-year></span> Nesbakes</span>
+    <span>Fresh bakes in Panjim, Goa</span>
+  </div>
+</footer>
+<a class="floating-whatsapp" href="https://wa.me/917499554807" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<script src="main.js"></script>
+</body>
+</html>

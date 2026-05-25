@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu | Nesbakes</title>
+  <meta name="description" content="Browse cakes, pastries, bread, savory items and custom orders from Nesbakes in Panjim, Goa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg-glow"></div>
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <div class="brand-mark"><i class="fa-solid fa-cake-candles"></i></div>
+      <div class="brand-text"><strong>Nesbakes</strong><span>Fresh bakes in Panjim, Goa</span></div>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu"><span></span></button>
+    <nav class="nav" aria-label="Primary"><a class="" href="index.html">Home</a><a class="active" href="menu.html">Menu</a><a class="" href="gallery.html">Gallery</a><a class="" href="reviews.html">Reviews</a><a class="" href="contact.html">Contact</a><a class="" href="order.html">Order</a></nav>
+  </div>
+  <div class="mobile-panel container"><a class="" href="index.html">Home</a><a class="active" href="menu.html">Menu</a><a class="" href="gallery.html">Gallery</a><a class="" href="reviews.html">Reviews</a><a class="" href="contact.html">Contact</a><a class="" href="order.html">Order</a></div>
+</header>
+
+<main>
+<section class="section">
+  <div class="container">
+    <span class="section-kicker">Fresh menu</span>
+    <h1 class="section-title">A display built to make browsing easy.</h1>
+    <p class="section-lead">Use the filters below to explore cakes, pastries, bread, savory items, and custom occasion orders.</p>
+    <div class="tabs">
+      <button class="tab-btn active" data-filter="all">All</button>
+      <button class="tab-btn" data-filter="cakes">Cakes</button>
+      <button class="tab-btn" data-filter="pastries">Pastries</button>
+      <button class="tab-btn" data-filter="bread">Bread</button>
+      <button class="tab-btn" data-filter="savory">Savory</button>
+      <button class="tab-btn" data-filter="special">Special Orders</button>
+    </div>
+    <div class="menu-grid"><article class="menu-card soft-card reveal" data-category="cakes">
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80" alt="Chocolate Truffle">
+      <div class="body">
+        <span class="tag">Cakes</span>
+        <h3 style="margin:.7rem 0 .35rem">Chocolate Truffle</h3>
+        <p>Rich celebration cake with smooth ganache.</p>
+        <div class="price-row"><span class="price">₹ custom</span><a class="btn btn-ghost" href="order.html">Order</a></div>
+      </div>
+    </article><article class="menu-card soft-card reveal" data-category="cakes">
+      <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=900&q=80" alt="Fresh Fruit Cake">
+      <div class="body">
+        <span class="tag">Cakes</span>
+        <h3 style="margin:.7rem 0 .35rem">Fresh Fruit Cake</h3>
+        <p>Light, seasonal, and perfect for family gatherings.</p>
+        <div class="price-row"><span class="price">₹ custom</span><a class="btn btn-ghost" href="order.html">Order</a></div>
+      </div>
+    </article><article class="menu-card soft-card reveal" data-category="pastries">
+      <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=900&q=80" alt="Red Velvet Slice">
+      <div class="body">
+        <span class="tag">Pastries</span>
+        <h3 style="margin:.7rem 0 .35rem">Red Velvet Slice</h3>
+        <p>Cream cheese style finish with a plush crumb.</p>
+        <div class="price-row"><span class="price">₹ custom</span><a class="btn btn-ghost" href="order.html">Order</a></div>
+      </div>
+    </article><article class="menu-card soft-card reveal" data-category="pastries">
+      <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=900&q=80" alt="Mango Delight">
+      <div class="body">
+        <span class="tag">Pastries</span>
+        <h3 style="margin:.7rem 0 .35rem">Mango Delight</h3>
+        <p>Bright, soft, and ideal for a sunny Goa afternoon.</p>
+        <div class="price-row"><span class="price">₹ custom</span><a class="btn btn-ghost" href="order.html">Order</a></div>
+      </div>
+    </article><article class="menu-card soft-card reveal" data-category="bread">
+      <img src="https://images.unsplash.com/photo-1509440159598-8b9f89b90f1e?auto=format&fit=crop&w=900&q=80" alt="Milk Bread">
+      <div class="body">
+        <span class="tag">Bread</span>
+        <h3 style="margin:.7rem 0 .35rem">Milk Bread</h3>
+        <p>Soft loaf for daily use and tea-time sandwiches.</p>
+        <div class="price-row"><span class="price">₹ custom</span><a class="btn btn-ghost" href="order.html">Order</a></div>
+      </div>
+    </article><article class="menu-card soft-card reveal" data-category="bread">
+      <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Buns & Rolls">
+      <div class="body">
+        <span class="tag">Bread</span>
+        <h3 style="margin:.7rem 0 .35rem">Buns & Rolls</h3>
+        <p>Counter-friendly staples baked fresh through the day.</p>
+        <div class="price-row"><span class="price">₹ custom</span><a class="btn btn-ghost" href="order.html">Order</a></div>
+      </div>
+    </article><article class="menu-card soft-card reveal" data-category="savory">
+      <img src="https://images.unsplash.com/photo-1517445312884-7f3b6d30c79e?auto=format&fit=crop&w=900&q=80" alt="Veg Puff">
+      <div class="body">
+        <span class="tag">Savory</span>
+        <h3 style="margin:.7rem 0 .35rem">Veg Puff</h3>
+        <p>Golden, flaky, and ready for quick visits.</p>
+        <div class="price-row"><span class="price">₹ custom</span><a class="btn btn-ghost" href="order.html">Order</a></div>
+      </div>
+    </article><article class="menu-card soft-card reveal" data-category="savory">
+      <img src="https://images.unsplash.com/photo-1606755962773-d324e1d66796?auto=format&fit=crop&w=900&q=80" alt="Cheese Sandwich">
+      <div class="body">
+        <span class="tag">Savory</span>
+        <h3 style="margin:.7rem 0 .35rem">Cheese Sandwich</h3>
+        <p>Simple, warm, and family-friendly.</p>
+        <div class="price-row"><span class="price">₹ custom</span><a class="btn btn-ghost" href="order.html">Order</a></div>
+      </div>
+    </article><article class="menu-card soft-card reveal" data-category="special">
+      <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=900&q=80" alt="Custom Event Cake">
+      <div class="body">
+        <span class="tag">Special</span>
+        <h3 style="margin:.7rem 0 .35rem">Custom Event Cake</h3>
+        <p>Tailored for birthdays, weddings, and corporate occasions.</p>
+        <div class="price-row"><span class="price">₹₹₹ custom</span><a class="btn btn-ghost" href="order.html">Order</a></div>
+      </div>
+    </article></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container subfooter">
+    <span>© <span data-year></span> Nesbakes</span>
+    <span>Fresh bakes in Panjim, Goa</span>
+  </div>
+</footer>
+<a class="floating-whatsapp" href="https://wa.me/917499554807" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<script src="main.js"></script>
+</body>
+</html>

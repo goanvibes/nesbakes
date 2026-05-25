@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order | Nesbakes</title>
+  <meta name="description" content="Place a custom cake or bakery order with Nesbakes. Quick WhatsApp ordering for Panjim, Goa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg-glow"></div>
+<header class="header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <div class="brand-mark"><i class="fa-solid fa-cake-candles"></i></div>
+      <div class="brand-text"><strong>Nesbakes</strong><span>Fresh bakes in Panjim, Goa</span></div>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu"><span></span></button>
+    <nav class="nav" aria-label="Primary"><a class="" href="index.html">Home</a><a class="" href="menu.html">Menu</a><a class="" href="gallery.html">Gallery</a><a class="" href="reviews.html">Reviews</a><a class="" href="contact.html">Contact</a><a class="active" href="order.html">Order</a></nav>
+  </div>
+  <div class="mobile-panel container"><a class="" href="index.html">Home</a><a class="" href="menu.html">Menu</a><a class="" href="gallery.html">Gallery</a><a class="" href="reviews.html">Reviews</a><a class="" href="contact.html">Contact</a><a class="active" href="order.html">Order</a></div>
+</header>
+
+<main>
+<section class="section">
+  <div class="container split">
+    <div class="panel reveal">
+      <span class="section-kicker">Order now</span>
+      <h1 class="section-title">Made for quick customer enquiries and custom celebration orders.</h1>
+      <p class="section-lead">Use this page to send your order request for cakes, pastries, bread, savory items, and custom celebration pieces with ease.</p>
+      <div class="list">
+        <div class="list-item"><i class="fa-solid fa-check"></i><div><strong>Fast WhatsApp routing</strong><span>Sends your enquiry directly to WhatsApp for a quick reply.</span></div></div>
+        <div class="list-item"><i class="fa-solid fa-calendar-check"></i><div><strong>Pickup-aware</strong><span>Share pickup or delivery timing right away.</span></div></div>
+        <div class="list-item"><i class="fa-solid fa-layer-group"></i><div><strong>Custom details</strong><span>Capture size, flavour, and special message details.</span></div></div>
+      </div>
+    </div>
+    <div class="soft-card form reveal">
+      <form id="orderForm">
+        <div class="field-grid">
+          <div class="field"><label>Name *</label><input name="name" placeholder="Full name"></div>
+          <div class="field"><label>Phone *</label><input name="phone" placeholder="Phone number"></div>
+        </div>
+        <div class="field-grid" style="margin-top:1rem">
+          <div class="field"><label>Item *</label><input name="item" placeholder="Cake, pastry tray, bread, savory box..."></div>
+          <div class="field"><label>Fulfilment</label><select name="fulfilment"><option>Pickup</option><option>Delivery</option><option>Need guidance</option></select></div>
+        </div>
+        <div class="field-grid" style="margin-top:1rem">
+          <div class="field"><label>Preferred date</label><input name="date" type="date"></div>
+          <div class="field"><label>Flavour / size</label><input name="flavour" placeholder="Chocolate, vanilla, custom size"></div>
+        </div>
+        <div class="field" style="margin-top:1rem"><label>Message *</label><textarea name="message" placeholder="Tell us the occasion, theme, and special instructions"></textarea></div>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit"><i class="fa-brands fa-whatsapp"></i> Submit on WhatsApp</button>
+          <a class="btn btn-secondary" href="menu.html">Check Menu</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container subfooter">
+    <span>© <span data-year></span> Nesbakes</span>
+    <span>Fresh bakes in Panjim, Goa</span>
+  </div>
+</footer>
+<a class="floating-whatsapp" href="https://wa.me/917499554807" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<script src="main.js"></script>
+</body>
+</html>
