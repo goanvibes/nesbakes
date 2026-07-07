@@ -1,0 +1,23 @@
+Menu Items and Prices
+=====================
+
+Coffee Cake (½ kg): ₹720.00
+Strawberry Cheesecake: ₹300.00
+Truffle Pastry: ₹260.00
+Nutella Pastry: ₹260.00
+Double Chocolate Pastry: ₹230.00
+Tiramisu Pastry: ₹150.00
+Biscoff Pastry: ₹300.00
+Coffee Pastry: ₹150.00
+Nutella Cake: ₹780.00
+Rum Ball: ₹80.00
+Chocolate Cupcake: ₹80.00
+Truffle Cake: ₹900.00
+Soft Drinks: ₹20.00
+Kombucha: ₹200.00
+Veg Sando: ₹150.00
+Tuna Sando: ₹200.00
+Chicken Pawzin: ₹50.00
+Paneer Puff: ₹30.00
+Veg Puff: ₹25.00
+Chicken Puff: ₹30.00
